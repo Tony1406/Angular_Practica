@@ -1,0 +1,32 @@
+#piePagina {
+  background: #0f172a;
+  padding: 1.5rem 1rem;
+  color: #e2e8f0;
+}
+
+#sectUp {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#menuFooter {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+#menuFooter .menuFooter {
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+#menuFooter .menuFooter:hover {
+  opacity: 0.6;
+}
